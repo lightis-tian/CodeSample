@@ -1,0 +1,19 @@
+# This file contains the dataset configuration for the 2025 Premier League stats.
+# It includes paths to the CSV files and the columns to be used for each dataset.
+# The paths with base path ../../Datasets, if use customize datasets, please use the absolute path.
+
+player_stats:
+  path: 2025Premier League stats\player_stats.csv
+  columns: 
+    - name
+    - team
+    - position
+    - age
+    - minutes
+
+player_salaries:
+  path: 2025Premier League stats\player_salaries.csv
+  columns: 
+    - Player
+    - Nation
+    - Annual
